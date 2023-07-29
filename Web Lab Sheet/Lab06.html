@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            body{
+    background-image: url();
+}
+
+div{
+    border: 1px solid black;
+    padding: 3%;
+    margin: 10%;
+    width: max-content;
+    height:75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: rgb(9, 9, 46);
+}
+
+h1{
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(231, 153, 9);
+    margin: 1%;
+}
+input{
+    margin: 10px;
+}
+span{
+    text-align: center;
+    
+    border: 1px solid white;
+    padding: 3%; 
+    margin: 10%;
+    background-color:rgb(231, 153, 9); 
+    
+}
+label{
+    float: left;
+    margin-right: 30px;
+    color:yellow;
+    width: 100px;
+}
+P{
+    color: yellow;
+}
+select{
+    margin: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Sign up</h1><br>
+            <form name="signin" method="post" action="#">
+                <label>Full name:</label>
+                <input type="text" name="Fname" placeholder="Enter first name"><br>
+                <label>Last name:</label>
+                <input type="text" name="lname" placeholder="Enter last name"><br>
+                <label>Date of birth:</label>
+                <select name="Date">
+                    <option value="date">Date</option> 
+                </select>
+                <select name="Month">
+                    <option value="month">Month</option>
+                </select>
+                <select name="Year">
+                    <option value="year">Year</option>
+                </select><br>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male"></input><a>Male</a> <br>
+                <label>E-mail:</label>
+            <input type="email" name="E-mail" placeholder="Enter E-mail"> <br>
+                <labeL>Password:</labeL>
+            <input type="password" name="pword"><br>
+                <label>Confirm Password:</label>
+            <input type="password" name="cpword"><br>
+                <input type="checkbox" name="agree" style="margin-left: 40%;">
+                <a style="color: yellow;">I agree to the terms of use</a><br><br>
+                <span>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Cancel">
+                </span>
+        </div>
+    </body>
+</html>
+
+            

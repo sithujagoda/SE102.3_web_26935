@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style type="text/css">
+            fieldset{
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 400px;
+                height: 350px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 30px;
+            }
+            form{
+                font-size: 20px;
+            }
+            label{
+                width: 200px;
+                display: inline-block;
+            }
+            option{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend><b>Car Registration</b></legend>
+            <div id="form">
+                <form>
+                    <label>Owner Name</label>
+                    <input type="text" id="oname" name="oname">
+                    <br>
+                     <label>Email</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                     <label>Phone Number</label>
+                    <input type="text" id="pnumber" name="pnumber">
+                    <br>
+                    <label>Country</label>
+                    <select name="drop-down">
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="India">India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="South Korea">South Korea</option>                    
+                    </select>
+                     <label>Car Model</label>
+                    <input type="text" id="cmodel" name="cmodel">
+                    <br>
+                     <label>Manufacture Year</label>
+                    <select name="drop-down">
+                        <option value="Select Year">Select Year</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2000">2000</option>                 
+                    </select>
+                    <br>
+                    <label>Transmission</label>
+                    <input type="radio" id="manual" name="manual">Manual
+                    <input type="radio" id="auto" name="auto">Auto
+                    <br>
+                    <label>Other</label>
+                    <textarea id="other" name="other">
+                    </textarea>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="tm" name="tm"> I agree to the conditions and terms
+                    <br>
+                    <br>
+                    
+                    <input type="submit" id="submit">
+                    <input type="reset" id="reset">
+                  
+                </form>
+            </div>
+        </fieldset>
+    </body>
+</html>
